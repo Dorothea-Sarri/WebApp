@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+body {
+    display: flex;
+    height: 100vh;
+    padding: 10px;
+    background: linear-gradient(135deg,#ffffff, #0969ae);
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top:40px;
+
+}
+.container {
+   width: 700px;
+    width 100%;
+    background #fff;
+   
+    padding: 25px 30px;
+    border-radius: 5px;
+
+}
+
+
+.container form .user-details {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .user-details .input-box 
+{
+    margin: 3px 0 10px 0 ;
+    width: calc(100% / 2 - 20px);
+}
+form .user-details .input-box input{
+    height:25px;
+    width: 100% ;
+}
